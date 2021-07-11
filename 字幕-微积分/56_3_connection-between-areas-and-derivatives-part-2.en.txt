@@ -1,0 +1,109 @@
+[MUSIC] Now that we've introduced the idea of an
+area function, we can apply this idea to find some perhaps surprising
+one expected connections. The first is to explain the relationship
+that we noted in earlier videos between the formulae between the perimeter and
+area of a circle. Suppose we have a circle of radius r. Consider the effects on area and perimeter that occur by making
+a small change in the radius. Say Δr, which is positive in this diagram. Color the area of the original
+circle in blue, and color the pathway around
+the circle with Δr in beige. So the blue area we can call A, which is
+a function or r, given by the formula pi r squared. The beige area is the change in A,
+ΔA, which is the difference between A evaluated at (r + Δr),
+and A evaluated at r. Let P denote the perimeter of the
+small circle, this area is shaded in blue. Also a function of r,
+given by the formula 2 pi r. The area of the beige pathway is
+represented symbolically by ΔA, the resultant change in the red is by Δr,
+and the pathway has two sides. A smaller side length, which is
+the perimeter of the circle with red as r, and a larger side length, which is the perimeter of
+the circle with radius r + Δr. Such area must be bounded below
+by the small perimeter and multiplied by the width of the path. And bounded above by the larger perimeter
+multiplied by the same path width. And so we get this chain of inequalities. We can divide through by Δr,,
+and get to ΔA divided by Δr, sandwiched between P(r) and P(r + Δr). As Δr approaches 0,
+P(r) just stays the same. And P(r + Δr) becomes P(r), because
+the perimeter function is continuous. And ΔA divided by Δr
+becomes derivative dA/dr. All three limits must coincide by
+the squeeze law because of the chain of inequalities, and the fact that the limits
+on the left and right are equal. We conclude that the derivative dA/dr
+becomes the perimeter function P, explaining this fact that we've noted
+before directly from the respective formulae. It's natural then to ask if there's
+a similar connection between a volume of a sphere and its surface area. Consider a sphere of radius
+r.  Denote its volume by V and its surface area by S,
+both of which are functions of r. Consider again,
+now in the context of the sphere, the effects of a small positive change,
+Δr, in the radius. This will propagate small changes in both
+the volume and surface area of the sphere. The change in volume ΔV,
+will be the volume of the outer layer, which we will refer to as the crust, by analogy with the crust of the earth.
+This crust, so to speak, is colored light beige, and the outer surface of the expanded
+sphere is colored slightly darker beige. The inner sphere, the core,
+with original radius r, is colored blue. The crust has uniform
+thickness of Δr throughout. Where it interfaces with
+the blue inner sphere, we have a smaller blue surface area. So the volume of the crust must be
+bounded below by the blue surface area, whatever that might be, multiplied by Δr. On the other hand, the crust interfaces
+with the exterior outside world through the largest surface area
+of the expanded sphere. So the volume of the crust must be
+bounded above by the darker beige surface area multiplied by Δr. And so we get a chain of inequalities. But the surface area of the inner blue
+core is represented symbolically by S(r). And the darker beige, surface area
+of the larger sphere by s(r) + Δr. So we can write our chain of
+inequalities more concisely. Dividing through by Δr, we get s(r) is less than or equal to Δv / Δr which is less than or equal s(r + Δr). As Δr approaches 0,
+S(r) of course, stays the same. S(r) + Δr goes to S(r) by continuity
+of the surface area function, and Δv/Δr becomes the derivative dv/dr. By the squeeze law, again,
+all three limits are equal. This proves the that the derivative
+of the volume of the sphere, must be the surface area. Whatever the formula is for
+the volume, we can get a formula for the surface area by differentiating. We've established this amazing connection,
+simply by thought experiments and a few diagrams. To apply the fruit of our labors, we'd
+like to come up with some actual formulae. With some lateral thinking,
+we can figure out a formula for the volume fairly quickly. And then use this indirectly to get
+the surface area by differentiating. It's actually very difficult to find
+the surface area formula directly. Here's a sphere of radius r, again, but imagine a copy of the xy plane
+forming a vertical cross-section. So that we get this circular profile that
+crosses the axis at plus and minus r. The circle that we see in this
+profile has equation x² + y² = r². So in the xy plain,
+y takes the value ± √r²- x². Now comes the lateral thinking, we imagine
+slicing through the sphere vertically, but in a direction
+perpendicular to the xy plain. To produce this green circular vertical
+cross-section with the x axis passing exactly through its center. If this green circle intersects
+the x axis at a particular value of x, then its radius is the positive √r²- x². We want the total volume of the sphere,
+and the green cross-section is
+like an infinitely thin slice. The idea intuitively, is to imagine
+the area of all this infinitely thin, vertical cross-sections being
+added together, so to speak, as x moves from minus r to plus r,
+along the x-axis. It's like the continuous sums that we've
+been discussing for the definite integral. But now, we use the cross-section area
+of these circles as the integrand. Here are just a few snapshots of
+this cross-section as x moves from left to right. But in fact, we're thinking of
+a continuous movement from x equals minus r through to x equals r. To set up the integration, we need to know
+the area of the circlular cross-section for any particular x. But the radius is y=√r²- x², and the area of the circle is πy²,
+which equals π(r²-x²). So we're really looking at the definite
+integral with integrand π(r²-x²). In terminals ±r, as we're thinking of x as moving all
+along the interval from -r to +r. In setting this up,
+we're appealing to your intuition. We're in fact using something called
+the disk method taught in more advanced courses in calculus. Which formally relaxed it's definite
+integral to the limit of Riemann's sums where the pieces being added up volumes of
+so called disks with certain thicknesses. Which become in the limit,
+as things get thinner and thinner, out infinitely thin
+circular cross-sections. The volume we're finding is also
+called a volume of revolution, which you can look up and
+read about if you wish. So the volume of this sphere is this
+particular definite integral, and the constant π can come out the front. We wish to form
+an antiderivative of r²-x², and evaluate it for x between -r and +r. To find this antiderivative,
+observe that r² is a constant, so that contributes r²*x. Then we take away an antiderivative of x²,
+which is x³/3. These pieces combine to give
+us our full antiderivative. And evaluating it for x between -r and
+r, simplifies to 4/3 πr³. Thus we get the well-known formula for
+the volume of a sphere. We now get an explicit formula for
+the surface area by taking the derivative with respect to r,
+which quickly simplifies to 4πr². Thus finally, we reproduce the well known
+formula for the surface area of a sphere. In today's video, we explained in
+detail the connection between areas and derivatives, which is the main
+idea that leads to a proof of the Fundamental Theorem of Calculus. To do this, we changed that point of view,
+and considered an area function built out of a definite integral,
+where the upper terminal is a variable. The derivative of this function turns
+out to be the value of the integrand. Using properties of anti-derivatives, the statement of the fundamental
+theorem quickly followed. We then applied the main idea involving
+an area function to explain why the derivative of the area with respect
+to the radius produces the perimeter. We adapted that idea to explain why the
+derivative of the volume of a sphere with respect to the radius
+produces the surface area. We then worked out a formula for
+the volume of a sphere directly, by integrating the circlular cross-sectional area. By differentiating this answer, we
+finally obtained an explicit formula for the surface area of the sphere. Please read the notes, and when you're
+ready, please attempt the exercises. Thank you very much for watching, and
+I look forward to seeing you again soon. [MUSIC]

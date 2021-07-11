@@ -1,0 +1,106 @@
+[MUSIC] In today's video,
+we introduce, explain, and illustrate the Quotient Rule which
+enables us to differentiate a quotient of expressions in terms of the derivatives
+of the numerator and denominator. Consider a function y of x which is
+a quotient u divided by v where u and v are themselves functions of x. The quotient rule states that
+the derivative of y with respect to x is v times the derivative of u, minus u times
+the derivative of v all over v squared, expressed this way using Leibniz notation. Equivalently, using function notation and
+a dash to denote the derivative, the quotient rule says y dashed is vu
+dashed minus uv dashed all over v squared. It might look complicated at first, but it's remarkably elegant considering the
+task at hand, which is to differentiate a possibly highly sophisticated
+function expressed as a quotient. That we can do it at all is
+surely something of a miracle. The quotient rule, in fact, follows
+from the product and the chain rules. The reason is worth investigating, as it consolidates your understanding of
+these rules and the way they fit together and makes your technique more robust and
+stronger. Put y equal to u over v, which we can
+write as a product u times 1 over v. Which we can further rewrite
+as u times v to the  minus 1. Because this expression is a product,
+naturally we can apply the product rule. So that dy/dx equals the first factor u
+times the derivative of the second factor. But the second factor v to the minus 1 times
+the derivative of the first factor. But the derivative of v to the minus 1
+with respect to x may be expanded to become d/dv of v to the minus 1
+times dv/dx by the chain rule, which becomes minus 1 times v
+to the  minus 2 times dv/dx. Which can be rewritten as negative
+dx dived by v squared. Hence the dy/dx becomes u
+times this expression plus the second piece which can
+be rewritten as dudx/v. And the first and
+second pieces can be rewritten so the whole thing can becomes v
+du/dx minus u du/dx all over v squared. Which is exactly the form of
+the derivative in the quotient rule. This produces the Leibniz form which
+immediately converts into the rule using dash notation. For example, let y equal quotient
+x squared  plus 1 divided by x. And our task is to find the derivative,
+y dash. We can solve this directly by
+splitting y up into two fractions, which becomes x plus x to the minus 1, and
+then differentiate each piece. The derivative of the first piece is 1 and the derivative of the second
+piece is minus 1 times x to the minus 2. Which becomes 1 minus 1 over x squared,
+which we can leave as that or rewrite as a single fraction,
+x squared minus 1 over x squared. An alternative solution is to apply the
+quotient rule because y is the quotient of u divided by v where u is the numerator x
+squared plus 1, and v is the denominator x. So that u dashed is 2x, and v dashed is 1. So by the quotient rule, y dashed is
+vu dash minus uv dash all over v squared, and we can put all the pieces together. Expand, simplifying a couple
+steps to get x squared minus 1 over x squared which agrees
+with our first direct solution. Here's a more complicated expression for
+y and our task again is to find
+the derivative y dash. Observe that y is the quotient, u divided
+by v, where u is the numerator and v is the denominator with derivatives
+u dash and v dash respectively. We apply the quotient rule, and
+put all the pieces together. The derivative of y dash is complicated,
+and I'm not even going to try to simplify it. I just made up this example for the
+purposes of illustration, and have no idea what the graph of the function looks like,
+or even whether the function corresponds to some interesting or
+important problem, or physical phenomenon. The point I want to emphasize in
+an example like this is that we can find the derivative quickly by means
+of the rules that we developed. And the process becomes quite
+mechanical and procedural. Something quite remarkable has happened. Just in the space of a few videos, we have moved from basic definitions
+of the derivative to being able to differentiate such sophisticated
+functions fluently and easily. Even though we don't know what the curve
+looks like, this expression for the derivative, in principle, allows us to
+find slopes of tangent lines at any given point in which the expression is defined. And therefore, to find the equation or
+the tangent line at a given point and thereby approximate
+values of the function. In my opinion,
+this is an extraordinary achievement. And if you follow the development
+up to this point, then you should be congratulated
+on coming so far so quickly. In an earlier video I told you what
+the derivative of tan x turns out to be. Let's see if we can discover it ourselves. Observe that tan x is sin x over cos x, which becomes a fraction u over
+v where u equals sin x and v equals cos x. So that u dash is cos x,
+And v dashed is  minus sin x. By the quotient rule,
+the derivative of tan x with respect to x becomes vu dash minus uv
+dash all over v squared. And we put the pieces together. And the denominator becomes cos squared x. Whilst, the numerator becomes cos
+squared x plus sin squared x, which you might recognize as simplifying
+to 1 by the circular identity. And the answer becomes
+1 over cos squared x. This agrees with the answer
+that I told you some time ago without giving any reason. Now, there's some common notation and
+terminology that you should become aware of involving another
+trig function called the secant. We put sec x equal to 1 over cos x,
+the reciprocal of cos x, where sec is an abbreviation for secant. This word is related to lines, drawing certain points in diagrams
+involving the unit circle, in the context of more
+advanced trigonometry, but I won't go into the details. And you can look it up yourselves,
+if you wish, out of interest. This new terminology,
+the derivative of tan x becomes a square of sec x,
+which is written as sec squared x. You can continue to think of
+the derivative as 1 over cos squared x if you like. But you'll almost certainly see the sec
+notation in your mathematical travels. The secant function simply reciprocates
+the value of the cosine function. There's special terminology also for reciprocating the value
+of the sine function. Put csc x equal to cosec x
+equal to 1 over sine x, where csc and cosec are both
+common abbreviations for cosecant. There's one more, put cot x equal to cotan x equal cos x divided by sin x,
+which is the reciprocal of tan x. And here cot and cotan are common
+abbreviations for cotangent. Thus cosecant and cotangent, again have
+geometric interpretations in more advanced trigonometry which I won't go into here. And we will not need either
+of them in this course. We have from before, the derivative tan x is 1 over cos squared
+x expressed also as sec squared x. For completeness,
+though we will not need it, and you can check it yourself if you wish, the derivative cot x or
+cotan x is negative 1 over sin squared x. Which you can express as negative cos x
+squared x using either abbreviation. In today's video, we introduced and
+illustrated the quotient rule. Which enables you to differentiate
+a quotient of expressions in terms of the derivatives of
+the numerator and denominator. We explained how it comes about as results
+of applying the product and chain rules. By expressing the quotient as a product,
+the numerator with the reciprocal of the denominator.
+Ee gave some contrasting examples and importantly, found a formula for
+the derivative of tan x. Namely, the reciprocal of cos squared x,
+which can also be expressed as sec squared x,
+where sec is an abbreviation for secant. The values of the secant function
+are the reciprocals of the values of the cosine function. Please read the notes, and when you're
+ready, please attempt the exercises. Thank you very much for watching, and
+I look forward to seeing you again soon. [MUSIC]

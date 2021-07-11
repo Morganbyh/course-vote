@@ -1,0 +1,185 @@
+[MUSIC] In this video, we introduce
+the radian measure of angles, and extend the trigonometric definitions
+in the previous video by using points on the unit circle to define the sine,
+cosine, and tangent of any angle. This leads to the so-called
+circular functions, y = sin x and y = cos x and their graphs. We start off with the inner circle
+centered at the origin with radius 1. A typical point, x, y, on the circle, satisfies the equation x
+squared + y squared = 1. Related to the so called circular
+identity that we mentioned last time, there's also an angle we call theta
+between the positive x-axis and the radius that links
+the point to the origin. How do we measure angles? In the last video,
+we measured angles in degrees, and even referred to the fact that angles
+of a triangle add up to 180 degrees. It turns out for calculus that the radian
+measure of angles is more useful. But first,
+let's remind ourselves that there are 360 degrees in a single
+full revolution of the circle. This idea was introduced by
+the ancient Babylonian mathematicians. It's useful because 360 is a nice number. It's 2 times 180,
+which is 4 times 90, and so on. And there's so many different divisors
+that capture lots of useful common angles. We'll keep using degrees,
+especially for applications, but the radian measure turns out to be the
+best and most appropriate for calculus. Radians measure arc length
+on the unit circle. What does that mean? Here's a unit circle again. The point subtending an angle
+theta with a positive x-axis. The distance we travel along the circle
+to get to our point is the arc length. And this is defined to be
+the radian measure of the angle. For example, a full revolution
+of circle subtends 360 degrees. And the arc length is just the perimeter
+which is 2 pi times the radius which is just 2 pi since the radius is 1. Hence, 360 degrees
+corresponds to 2 pi radians. Half of a full revolution
+subtends 180 degrees and the arc length is just half of
+the full perimeter, which is pi. Hence 180 degrees
+corresponds to pi radians. Similarly, 90 degrees corresponds
+to pi on 2 radians and so on. So what should one degree be in radians? Well we just divide 2 pi by 360 which
+simplifies to pi on a 180 radians. What should a single radian
+correspond to in degrees? Well by reciprocating,
+1 radian is 180 on pi degrees. And if you type this into a calculator,
+you get about 57.3 degrees. With radian measure, we drop the word
+radians and just use numbers. So if an angle is quoted as a number,
+you know that radians are intended. So 360 degrees becomes a number 2 pi. 180 degrees becomes a number pi and so on. A single degree is represented
+by the number pi on 180. The number one interpreted as
+an angle is 180 on pi degrees. Angles then are really just numbers, so
+it can be positive, negative, or zero. Positive angles are measured by
+anticlockwise rotation about the unit circle. Negative angles are measured
+by clockwise rotation. For example, if we move anticlockwise
+45 degrees from the starting point, then we've moved pi on 4 radians. If we move clockwise 45 degrees,
+then we've moved negative pi on 4 radians. Here's some more angles. Note with this last pair,
+pi and negative pi, we end up at the same
+point on the unit circle. Angles are said to be equivalent if
+you end up with the same point on the unit circle. Angles that are large in magnitude
+can involve multiple revolutions of the unit circle. For example,
+an angle of 4 pi uses up two revolutions, an angle of 6 pi uses three
+revolutions and so on. The angles 2 pi, 4 pi, and 6 pi all end up back at the same
+starting point, so are equivalent. In the last video,
+we defined sin, cos, and tan of an acute angle in terms of
+certain ratios right angle triangles. It turns out there's a much more
+general way of defining these for any angle, exploiting coordinates of
+points that wind around the unit circle. Here's the unit circle with a point
+subtending an angle theta, with coordinates x, y say. We now define cos theta to
+be the x coordinate, and sine theta to be the y coordinate. You move directly to the x axis to get
+cos theta, the first coordinate and directly across to the y axis to get
+sin theta, the second coordinate. In this particular diagram the angle,
+theta, happens to be acute. And there's a right angle triangle
+formed by the radius, a piece of the x axis and a vertical line segment
+parallel to the y axis. The horizontal side of this
+triangle equals the adjacent over the hypotenuse since the hypotenuse
+is one, giving cosine of theta. And the vertical side length equals
+the opposite over the hypotenuse, giving sine of theta, again,
+since the hypotenuse is one. So the coordinates of the point reproduce
+the definitions of cos theta and sine theta that we gave in the last video,
+in terms of right angle triangles. But the definitions work
+anywhere on the circle. Regardless of where you are, you get
+the cosine of the angle by moving down and possibly out to the horizontal axis. And the sine of the angle by moving
+directly across to the vertical axis. We define tan of theta always to
+be sine theta divided by cos theta provided cos theta is not equal to 0. In this diagram,
+we're in the first quarter of the circle, also called the first quadrant where
+the coordinates are all positive. Thus, sine theta and cos theta are both
+positive, and tan theta is also positive. In the second quadrant, the angle
+theta is now obtuse, and the x and y coordinates have mixed signs. In this case, sine theta is positive. But to get cos theta, you drop down
+to the negative part of the x axis, so cos theta is negative. In this case, tan theta is the quotient
+of a positive by a negative number, so it will be negative. In the third quadrant,
+now both coordinates, cos theta and sin theta are negative. So the tan theta becomes a quotient of
+two negative numbers, which is positive. In the fourth quadrant, cos theta is
+positive and sine theta is negative, so tan theta becomes negative. There are some important extreme cases on
+the boundaries between the quadrants where one of the coordinates is zero and
+the other is plus or minus one. Corresponding to angle zero, pi on 2 pi
+and three pi on 2 radians respectively. For example, the point (1,0) equals cos of zero,
+sine of zero, corresponding to the angle zero. So sine of 0 is 0, and cos of 0 is 1. Hence tan of 0 is just 0 divided by 1,
+which is 0. The point (0,1) equals cos pi on 2 sin pi on 2
+corresponding to an angle of 90 degrees. So sine of pi on 2 is one,
+and cos of pi on 2 is zero. So if we try to apply the formula for
+tan pi on 2, we get into trouble because this needs
+to be one over zero which is undefined. The other points for angles pi and three pi on two are discussed in
+more detail in the notes. But lets try to understand the geometric
+significance of the fact that tan of pi on 2 is undefined. Here's the unit circle again. Let's draw a vertical line that just
+glances the circle where it crosses the x axis at x equals one. This is called a tangent, or tangent line to the unit circle,
+touching the circle at the x intercept. Now at a point on the unit circle, say making an angle theta
+with a positive x axis. Then we extend the radius from
+the origin through this point until we touch the tangent. We can drop a vertical from the point
+on the circle down to the x axis, creating a right angle triangle with
+horizontal side length, x equals a say. And vertical side length y equals b say. So a is cos theta, the result of
+dropping down to the horizontal axis. And b is sine theta,
+the result of moving across to the vertical axis which form
+the coordinates of the point. The point where the line extending
+the radius meets the tangent has a vertical distance h,
+say, from the x-axis. What is h? Notice that the tangent is parallel to and
+located one unit from the y-axis. We can work out what h is by
+locating similar triangles which are highlighted in the diagram. The ratio b on a, coming from
+the small right angle triangle, is equal to h on one from the larger
+triangle, but this is just h. So h being b on a is just sine theta over
+cos theta which remember is tan theta. This relationship with the tangent line
+explains the terminology involving the word tangent. Thus, tan of an angle theta is just
+the length of this piece that you get by extending the radius through the point on
+the circle until you hit the tangent line. If the angle theta happens to be negative,
+say moving clockwise around the unit circle, but
+staying in the fourth quadrant, this method also works, but
+you hit the tangent below the x-axis, and tan theta is then measured as negative. Now we can explain why tan of pi on 2 or
+90 degrees should should be undefined. Start off with the unit circle, and the vertical tangent line that
+touches the circle at the x intercept. Now move the radius anticlockwise,
+from x equals 1 on the x-axis, along the circle towards y
+equals 1 on the vertical axis. But extend the radius until
+it touches the tangent. Make note of the vertical
+distance from this point on the tangent line to the x-axis. And just keep repeating this as
+the radius rotates to get closer and closer to y equals 1 on the y-axis. Very quickly, we run out of room on
+the tangent line in the diagram. The vertical distances from the point
+on the tangent line to the x-axis, are the tans and the angles and these vertical distances
+shoot off towards infinity. As theta, the angle made with
+the positive x-axis gets closer and closer to pi over two,
+tan theta heads towards infinity. This explains geometrically why tan
+on pi over 2 should be undefined. Now informing sin theta and cos theta, we're really thinking of
+theta as an input into a function. But remember,
+it's traditional to use x as an input. So here's the unit circle again, but think of x now as the arc
+length subtended by the angle. So x becomes the angle itself. From the unit circle we
+can read off the sin and cosine angle by moving directly across
+the vertical axis to get sin of x and straight down to the horizontal
+axis to get cos of x. Let's just focus on sine x for
+the time being. Notice as x moves from zero to pi on two covering the first quarter of the unit
+circle, sine x has moved from zero to one. The blue dot on the circle
+has carried the pink dot representing the sine
+of x up the vertical axis. As x continues then to move from
+pi on one to pi, and sine of x, the pink dot, comes
+back down from one to zero. As x continues then to move from
+pi to three pi on two, sine x moves from zero to minus one. Finally, as x moves from
+three pi on two to two pi, sine x moves from negative one to zero and
+we're back where we started. As x continues to wind around the circle
+as many times as you like, sine x will oscillate backwards and forwards between
+zero, one, zero, minus one, and zero. Now form the function
+with the rule y=sinx. We can ask,
+what does this graph look like? Here's part of the graph for x=0 through
+to x=2pi capturing this oscillation effect that we just looked at a moment ago using
+a pink dot representing the y values. This curve is called sinusoidal. And the shape continues to repeat as x
+moves further along the positive x axis, winding through the unit
+circle as often as you like. This captures movement
+anticlockwise around the circle. Remember, clockwise movement
+corresponds to negative angles. So if we allow x to move to the left
+along the negative half of the real line. And sine x will also oscillate, and the sinusoidal graph repeats ad infinitum
+to the left, as well as to the right. Thus we get the full sine curve
+extending along all of the real line, creating a wave that
+oscillates infinitely often. Let's try to understand now
+how cosine of x behaves. We'll go around the unit circle again,
+but remember the cosine of x is located on the horizontal axis
+represented here by a pink dot again. As the angle x moves from zero to 2 pi, as the blue point makes
+a full revolutionary circle, the cosine of x moves from 1 to 0
+to -1 and back from -1 to 0 to 1. If we continue to wind around the circle,
+cos x just repeats this pattern. Now form the function
+with rule y equals cos x. What does its graph look like? Here's the part of the graph x equals zero
+through x equals 2 pi, capturing this oscillation effect of the y values
+represented a moment ago by the pink dot. And this pattern is repeated
+ad infinitum to right and left forming the cosine curve. If we compare it with a sine curve, you'll
+notice that both have the same shape and only differ by a horizontal translation. So the cosine function is also sinusoidal. The functions y = sine x and
+y = cos x are said to be circular because a pair of those cos x sine x
+represents points on the unit circle. There are also so-called
+hyperbolic functions which form pairs of those that
+represent points on a hyperbola. But discussion of them goes
+beyond the scope of this course. The graph of the function y equals tan x
+is very interesting, and we'll save that up for the next video when we introduce
+inverse trigonometric functions. Again we've covered a lot of
+ground in a short space of time. We've introduced radian measures of angles
+using arc lengths from unit circle and shown how to convert degrees into radians,
+and back again, introduced rules for forming sine and cosine of any angles
+using coordinates on the unit circle. And discussed how to form
+the tangent of an angle, provided the cosine is nonzero and how the
+tangent of an angle arises geometrically. We defined the circular functions y sin x,
+and y cos x and illustrated how the graphs
+arise as sinusoidal curves. Please read and digest the notes
+which contain more details and when you're ready,
+please attempt the exercises. Thank you very much for watching, and
+I look forward to seeing you again soon. [MUSIC]

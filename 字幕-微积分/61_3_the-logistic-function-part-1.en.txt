@@ -1,0 +1,139 @@
+[MUSIC] In today's video, we discuss the logistic function used
+to model population dynamics where an inhibition factor is included in the
+expression describing the rate of growth. The logistic model includes a ceiling
+on the size of the population. The resulting curve is increasing,
+has a sigmoid shape, and sits between two horizontal asymptotes. There's a point of
+inflection halfway between, about which the curve has
+180-degree rotational symmetry. We begin with a simpler
+exponential growth model. Suppose we have a population of size x(t),
+which is a function of time t and want to understand its behavior. This model assumes that the derivative
+of x is some multiple k of x, with k is a positive constant. One can imagine without any limit of
+resources that the more there is of the colony, the faster it should grow. So the growth rate should be proportional
+to the size of the population. This is an example of
+differential equation. Note that though x appears
+on the right-hand side, x is being used as a dependent variable. The independent variable is t, not x,
+and anti-differentiating the right-hand side with respect to x will
+not make any progress. It needs some careful preparation
+to unravel this equation. You first multiply both sides
+by the differential to t, and dividing through by x
+gives dx on x = k dt. We now apply integral
+symbols to both sides to get equality of antiderivatives
+of the respective integrands. The differential on
+the left-hand side involves x, whilst the differential on
+the right-hand side involves t. An antiderivative 1 on x with
+respect to x is ln of x, and an antiderivative of a constant
+k with respect to t is just kt. We amalgamate constants of integration together
+with a single + C on the right. We can raise Euler's number
+e to the power of each side. On the left we get x back again, and on the right we get e to the kt + c,
+which we can expand. Thus x = A times e to the kt for some constant A by putting A = e to the c. Notice that we've reproduced
+the familiar exponential growth function whose graph is the exponential curve. Note that x labels the vertical axis and
+t the horizontal axis. Exponential growth is unlimited. The x values get arbitrarily
+large as t increases. Of course, this isn't a realistic
+model when resources are limited. We now modify the previous model to
+take into account constraints placed on populations by the environment and
+limited resources. We adjust the right hand side of
+the equation dx, dt equals kx by introducing a factor 1 minus x on M,
+for some new constant capital M. Think of M for the largest, or
+maximal sustainable population. The factor kx remains untouched, and contributes towards
+the growth of the population. The factor 1 minus x on M is carefully
+designed to model inhibition. If x is small,
+then this factor is close to 1, and the left-hand side is almost exactly kx,
+as in the original exponential model. However, if x is large, getting close to
+M, the factor 1- x on M gets close to 0, causing the overall growth rate,
+dx dt, to slow down to almost nothing. This modification is called
+the logistic growth model widely used in population dynamics. We get what's called a logistic
+equation whose solutions are called logistic functions. Let's now try to unravel
+the logistic equation. We first multiply through both
+sides through the differential, dt. Keep the constant, k,
+on the right-hand, next to dt, but move the factors x, and 1 minus x on
+M to the other side, by division. We separate the variables by
+putting x's to the left and t's to the right,
+including their differentials. We assume implicitly throughout that the
+population x always lies between 0 and M. We add integral signs to both sides to
+create functions by anti-differentiation. On the right hand side a general antiderivative to the
+constant k with respect to t is kt plus C. The left-hand side, however, is a mystery. Here's the left-hand side again, rewritten to express the integrand
+as a rational function. To motivate the next step, we first play with some
+ordinary fractions involving numbers. For example,
+one-sixth is 1 divided by 2 times 3. Which a half minus a third, which we
+can write as 1 over 2 plus negative 1 over 3. Similarly, one-thirty-third
+= 1 over 3 x 11. And you can check quickly this becomes
+two lots of one-third + negative 7 lots of one-eleventh. Both one-sixth and one-thirty-third
+decompose into combinations involving simpler fractions, a half,
+a third, and one-eleventh. It's like recognizing that water is H2O or
+common salt is sodium chloride. Here's a tougher fraction,
+one-ninety-ninth = 1 over 9 x 11. How can we decompose that? Let's postulate that it becomes A lots
+of the 9th, plus B lots of 11th. We put the right-hand side
+together as a single fraction, where the numerator becomes 11A plus 9B. We want this to equal 1. And it helps to find multiples of 11 and
+9 that differ by 1. Say 44 which is 4 times 11,
+and 45 which is 5 times 9. By using negative 44 and positive 45, we get a total of 1. Thus, we should take A to be  negative 4 and
+B to be 5. And then one ninety ninth decomposes as -4
+to the ninth plus 5 lots of one eleventh. Let's try something similar
+with the integrand above, which is a fraction involving polynomials
+in x, rather than just numbers. The numerator is 1. The denominator is complicated,
+with factors x and 1-x on M. Let's postulate a decomposition
+using A lots of 1 on x and B lots of 1 over 1 minus x on M. Rewrite the right hand side with a common
+denominator, obtaining a numerator that has to become 1 to agree with
+the numerator on the left-hand side. If we take A equals 1, then we get 1
+minus x on M, and just need to choose B to make the minus x on M go away, and
+B equal to 1 on M does the trick. Thus the rational function
+decomposes as this sum. And the right-hand side can be written
+more simply as 1 on x + 1 over M- x. What we've done in an ad hoc way
+is a special case of the method of partial fractions, a topic you'll meet
+in more advanced courses in calculus. To perform this integration,
+it suffices to integrate 1 on x and 1 on M-x separately, and
+add the answers together. The population x lies between 0 and M,
+so that both x and M-x are positive. An antiderivative of 1 on x is ln of x and of 1 over M-x is negative ln of M- x. For the second one you can use
+the guess and check method, or integration by substitution. We combine the constants of integration
+together with a plus C dash at the right. The difference of logarithms is
+the logarithm of the quotient, and we rewrite the expression inside the
+logarithm to isolate x, in preparation for the next step. Our aim, remember,
+is to unravel the logistic equation and we produced this difficult integral
+which we've just managed to solve. We can put everything together and amalgamate the constants on the right
+using, again, just a single plus C. We want explicit information about x and it's buried in the expression
+on the left hand side. We first raise Euler's number e to
+the power of each side of the equation. So the ln is stripped away
+from the left hand side, and the right hand side becomes e to
+the kt plus c, which can be expanded. We reciprocate everything and
+rewrite the right-hand side. We add 1 to both sides, and now rewrite the right hand side as 1 plus
+capital K e to the negative little kt, with capital K is the positive constant,
+e to the negative C. We rearrange this to obtain an explicit
+form of x, finally solving the logistic equation and its solution is
+known as the logistic function. In writing down the logistic equation, there were two positive constants
+involved, little k and capital M. In developing the general solution
+of the logistic function, we introduced a new positive
+constant capital K. This function has several
+important features. Firstly, the population x
+always lies between 0 and M where M represents a limiting
+upper bound or maximum. Indeed, the limit of x of t as t
+gets arbitrary large and positive to M because the expression e to the negative
+kt, which is one of e to the kt, goes to 0. You can think of M as the largest
+sustainable population in an environment with only limited resources. On the other hand, the limit of x(t),
+as t gets arbitrarily large and negative, will be 0, because now, the expression e
+to the negative kt will become arbitrary large and positive, and
+it appears in the denominator. The variable t represents time, so the first limit represents
+limiting behavior in the future. The second limit represents limiting
+behavior going backwards in time to the distance past. In the original differential equation we
+can rewrite the right hand side as k on M times x times M-x,
+which is a quadratic in x. Let's graph this quadratic regarding dx,
+dt as a function of x. You can see that it must
+be an upside down parabola which passes through the x axis when
+x equals 0 and when x equals M, and has an apex when x is exactly halfway
+between, that is when x equals M on 2. At this apex, the derivative
+dx/dt is maximised. This tells us that the growth rate is maximized when
+x happens to be halfway between 0 and M. We can now sketch the graph
+of x as a function of t. From features 2 and 3,
+we can see that x equals M and the the t axis form two horizontal asymptotes,
+and the curve has to fit in between. From feature 4, the growth rate is
+maximized when x has M on 2 and the corresponding point on the curve
+will be a point of inflection. Moving down to the t axis will reveal
+the time on which the growth rate is maximized. You can see a direct connection with
+the usual exponential function. If you look at the rule for
+x of t when the denominator is large, the +1 becomes negligible. By removing the +1, you get a simplified
+expression, which becomes a constant times e to the kt,
+which is the usual exponential function. This approximation effect occurs
+towards the left of the graph at time t before the curve gets near
+the point of inflection. The model indicates that the population is
+growing approximately exponentially until factors kick in to halt the growth. The population is growing
+as fast as possible at the moment, it reaches M on 2, and
+after that slows down and continues to slow down as it gets closer and closer
+to the maximum carrying capacity of M. [MUSIC]

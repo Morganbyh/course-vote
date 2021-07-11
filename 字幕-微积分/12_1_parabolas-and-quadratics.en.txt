@@ -1,0 +1,134 @@
+In this video, we introduce
+quadratic expressions, and illustrate how they can be understood visually
+and geometrically, using a fundamental class of
+curves known as parabolas. Recall from the last module, that we discussed
+equations of lines, one of the main forms of which is the slope intercept equation, which has the form
+y equals mx plus k, where m is the slope and
+k is the y-intercept. The combination of symbols
+on the right-hand side, mx plus k, is called
+a linear expression, and it is formed with just one multiplication
+and one addition, which when you think about it is very rudimentary arithmetic, which is the whole point
+of equations of lines. They are intended to be
+simple and easy to handle. Let's gradually increase
+the complexity. By adding a further
+term involving the square of x and
+another constant, so there are three constants renamed alphabetically
+a, b, and c, to get what is called a quadratic expression
+of the general form y equals ax squared plus
+bx plus c. Remember a, b, c are constants
+and x, y are variables. To be what we might call
+a proper quadratic, we want a to be
+non-zero for otherwise, the expression reverts
+to just bx plus c, the linear case which
+we've already considered. You might be curious the prefix quad in quadratic comes about
+because there are four sides to a square
+and x squared of course represents the area of a square of side length x. Indeed the simplest case is
+just y equals x squared. When a is equal to one and b and c are
+both equal to zero. What might the relationship look like between x and y equals x squared when we consider or
+plot points in the x-y plane? Let's look at some simple values. When x equals 0, then
+y is zero squared, which equals 0, so we get the point (0,0) which
+is just the origin. When x equals 1, we get
+y equals 1 squared equal to 1, so we get the point (1,1). When x equals minus 1, we get the same square value plus 1 and now the point (-1,1). When x equals 2 or minus 2, we get the same
+square value plus 4, so you get the
+points (2,4) and (-2,4). We can plot these five points
+on the Cartesian x-y plane, and join the points
+using a smooth curve. What we've produced is another very important curve
+in the history and development of mathematics
+known as a parabola. Let's look at some variations. The simplest example,
+which was just discussed, arises when a equals 1, b equals c equals 0. If we take a equals
+1 and b equals 0 again but take c equal to 2, we get y equals x squared plus 2. For enough variation, we
+could take a equals 1, b equals 4 and c equals 4, to get y equals x
+squared plus 4x plus 4. Let's sample some points (x,y)
+for each of these curves, where the values we
+input for x are 0, 1, minus 1, 2 and minus 2. Here are the five points that we obtained earlier for
+y equals x squared, and now points for
+y equals x squared plus 2, you can quickly
+check by adding 2 to the y values in
+the previous list. And also points for y equals x
+squared plus 4x plus 4. The values for the third
+example might look haphazard. But let's see what actually happens when we
+plot the points on the x-y plane in each case and join the points
+with smooth curves. Here's the parabola for y equals x squared that we found before. The second quadratic
+y equals x squared plus 2 simply shifts these
+y-values upwards by two units, and so the curve joining
+these new points is just the original parabola
+shifted upwards by two units. To plot the five points
+for the third quadratic, we need some extra room, which we get by halving
+the scale on the x and y axis from the diagrams
+we used before, and you can easily check that we also get these other points. When x equals minus 3, minus 4, minus 5, and minus 6, and then join up the points
+with a smooth curve, which again turns out
+to be a parabola. If you include
+the original parabola for y equals x squared, that's the blue curve
+on the same diagram, you discover that
+the pink curve is obtained by shifting the blue curve
+uniformly two units to the left. Now how can that be? The rules for the quadratics
+looks so different. Observe that, in fact, x squared plus 4x plus
+4 is a perfect square. In the sense that it is
+the square of x plus 2, which is really just x squared with x
+replaced by x plus 2, so that to get the y-values
+for the pink curve, all one needs to do is
+input x values that are two units less than those
+feeding into the blue curve, and the shifting
+phenomenon is explained. In fact, every curve described by the general quadratic y
+equals ax squared plus bx plus c is a parabola, and just the result of dilation and shifting up
+and down or back and forth, the simplest parabola associated
+with y equals x squared. This completely general fact, is not obvious, but it's explained
+carefully in the notes, together with some principles
+regarding dilations and shifts of general curves
+in the x-y plane. If the constant a in the quadratic expression
+happens to be negative, then the dilation effect includes also flipping the
+parabola upside down. We often say by
+reflecting in the x-axis. For example, consider
+the parabola for y equals minus x squared where a is equal to minus one
+and b and c are both zero, and we get an upside
+down parabola. In fact, the result of
+reflecting the parabola for y equals x squared in
+the horizontal x-axis. Bowl-shape up becomes
+bowl-shape down, using any horizontal reflection. Notice that the apex of the
+parabola is at the origin. The apex turns out to be
+important for applications. Here's a trickier one, y equals 2x minus x squared, just rearranged slightly to emphasize the minus x
+squared term, and we know it must yield
+an upside down parabola, because of the minus sign. But where does the parabola lie
+on the x-y plane? Let's do some algebraic
+manipulation. First write y as the negative of x squared
+minus 2x, all in brackets, then use the technique of
+completing the square, by adding and subtracting
+one inside the brackets, as this doesn't change the overall value of the expression. Bring the minus minus 1 outside
+the brackets as plus 1, and then recognize
+the bracketed expression as the perfect square, x minus 1 squared. So finally, we've written
+y as minus x minus 1, all squared, plus 1. To understand the curve, because what we've just done, we can relate this
+in a natural way to the simplest upside
+down parabola of all. Start with minus x squared, replace x by x minus 1, and then add 1, and you recover
+the expression minus x minus 1, all squared, plus 1. You can see the visual
+geometric effect of these two algebraic steps. Start off with the upside down parabola y equals
+minus x squared. Take a copy of the parabola, and watch the effect of
+shifting one unit to the right, corresponding algebraically
+to replacing x by x minus 1, followed by moving one unit
+vertically upwards, corresponding algebraically
+to adding plus 1. You can see that we recover the pink parabola
+from the green one. Notice how the apex of the green curve is
+at the origin (0,0), and this is shifted
+to the point (1,1), which becomes the apex
+of the pink curve. Notice also how
+the pink curve crosses the x-axis at x equals
+0 and x equals 2. This makes perfectly
+good sense since this occurs when y is equal to 0. If we go back to
+the original expression, instead of completing the square, if we put y equal to 0, then we get a factorization
+of zero in just one step, x times 2 minus x. And remember in an earlier video, we said that a factorization
+of zero is very useful, leading to x equals
+0 or x equals 2, where the curve
+crosses the x-axis. There are lots of
+different ways of looking at these curves, with experience, you would realize that one of the fastest ways to visualize examples like the parabola y
+equals 2x minus x squared, is to recognize that
+it's upside down, as the coefficient of
+x squared is negative, and crosses the x-axis at values dictated by
+a factorization of zero. There's much more that
+can be said about parabolas especially
+about the apex, the point where it turns around. To get a more complete story, we'll introduce and discuss the quadratic formula
+in the next video. We've made a good beginning here
+and covered a lot of ground, we've introduced
+general quadratic expressions, shown how they correspond to important curves
+known as parabolas, and illustrated how different parabolas relate to each other, especially by shifting and
+turning things upside down, by reflecting in the x-axis. Please read the notes
+and when you're ready, please attempt the exercises. Thank you very much for watching, and I look forward to
+seeing you again soon.

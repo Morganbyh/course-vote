@@ -1,0 +1,84 @@
+[MUSIC] In this final example, we'll look at
+a rule of thumb used by bankers and investors to estimate how many years it
+takes for a sum of money, the principal, to double in value when invested with
+a given compounding annual interest rate. This is called the Rule of Seventy. It estimates the number of years for the principle to double is 70
+divided by the interest rate. For example, if the interest rate is 1%,
+then you expect to take 70 divided by 1, which is 70 years for
+the principle to double. If the interest rate is 2%, then you expect to take 70 divided
+by 2 which is 35 years to double. If the interest rate is 7%, then you expect to take 70 over 7
+which is 10 years to double and so on. The rule of 70 is only a good estimate for
+small interest rates. Now why does it work? Though the rule itself is very simple, the
+underlying reason why it works is profound and relies ultimately on
+a property of Euler's number e. Recall that the importance of e
+stems from the fact that the slope of the tangent line to the curve, y equals
+e to the x at the y intercept is 1. So that when we reflect in the line
+y=x to form the inverse function, this tangent then becomes a tangent
+line to the curve y=log(x) and its x intercept also of slope one. The equation of this tangent line to
+the curve of the natural logarithm, you can check quickly is y=x-1. And it's a very good approximation for
+the curve near x=1. Thus lnx is approximately equal to x-1 for
+x close to 1. Recall that the derivative of lnx
+is 1 over x, so when x equals 1, the value of the derivative is exactly 1,
+the slope of the tangent line. In terms of differentials, if we multiply
+through by dx, we get d of lnx = dx. This becomes an approximation, delta
+ln of x is approximately equal to delta x, which we expect to be a good
+estimate when x is close to 1. Making room to continue,
+delta (ln x), the change of ln x is log of 1 plus the change in x take way the log of 1, which is just ln (1 + delta x),
+because log of 1 is 0. Combined with the above,
+this gives ln (1+Delta x) is approximately equal to Delta x. As a simple abstract statement, this just says that ln (1+Delta)is approximately equal to Delta for any small numbers Delta. If we want to estimate ln(1+Delta) when Delta is small, we can just replace this
+expression by Delta itself! What on Earth has this got
+to do with the rule of 70? Let P denote the initial principle being
+invested and i denote the interest rate. Let y=y(x) be the value of
+the investment after x years. So P is the value of the investment
+when x = 0 so that y(0) = p, and the general formula is y =
+p (1+i / 100) to the power x, which uses an exponential growth model as
+the investment uses compound interest. We want the number of years x,
+after which the original principal, P, has doubled to 2P. So by the formula for
+y of x we get this expression for P. We can divide through by P and
+then take natural logs of both sides. But remember, taking logs brings
+the exponent down to the front. So the right hand side becomes x
+times ln of 1 plus i divided by 100, and then dividing through, x becomes
+this complicated looking fraction. Now comes the magic. Recall, log of 1 plus delta is
+approximately equal to delta for small delta. Here, take delta to be i on 100,
+which is a small number. And then we can replace ln of 1 +
+i over 100 simply by i on a 100, up to an approximation. Thus x becomes approximately
+the simple fraction ln of 2 over i divided by 100,
+which is 100 ln of 2 divided by i. The upshot is that to
+estimate the number of years, we just divide 100 ln of
+2 by the interest rate. But 100 ln of 2 is 69.3 to one
+decimal place, which is close to 70. So the number of years is approximately
+70 divided by the interest rate, which explains the rule of 70. Now 100 ln of 2, in fact,
+rounds down to 69. So the number of years
+is also approximately 69 divided by the interest rate,
+known as the rule of 69, which is slightly more
+accurate then the rule of 70. And 69 is also not too far off 72,
+which is a nice number, and we get the so called rule of 72, which is less accurate,
+but often used as a rule of thumb if the interest rate is an integer
+that divides 72 exactly. For example, if the interest rate is 6%,
+then 72 divided by 6 is 12, so expect about 12 years for
+the principle to double. It's slightly awkward to
+divide 6 into 70 or into 69, and in any case both
+answers round up to 12. This is the final video for
+module three, and we've come so far so quickly in transition from precalculus. We're well set up now to launch into
+the main techniques and applications of differential calculus in module four,
+and integral calculus in module five. We began this module by discussing
+average rates of change. And especially focused on
+interpretations as average speed or velocity in the context of distance or
+displacement functions. What you see on the speedometer of a car
+is a physical representation of what we think of as instantaneous velocity, which
+in mathematical terms is the limiting behavior of average velocity when the time
+intervals become vanishingly small. All of this has a general interpretation
+in terms of slopes of tangent lines to curves, which we saw were
+described as limits of slopes of secants. The slope of the tangent line
+is called the derivative. This leads naturally into limit
+definitions of the derivative and several natural equivalent formulations,
+including Leibniz notation, which expresses the derivative
+in terms of differentials. We discussed a variety of possible
+behaviors of curves of functions, captured succinctly using
+variations of limit notation, including examples of asymptotic behavior. We also discussed the important
+notion of continuity. Now today we exploited the notation of
+Leibnitz for the derivative to see how to translate idealized equations involving
+differentials, into approximations involving small changes in the variables
+expressed by delta notation. This has some surprising applications such
+as explaining the rule of Seventy. Please read the notes, and when you're ready,
+please attempt the exercises. Thank you very much for watching, and I
+look forward to seeing you in module four. [MUSIC]

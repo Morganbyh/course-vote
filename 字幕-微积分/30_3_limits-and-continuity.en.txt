@@ -1,0 +1,108 @@
+[MUSIC] In this video, we'll discuss and illustrate the important notion
+of continuity of a function, what can go wrong when discontinuities
+occur, and how we handle them. Including examples when we can fix
+things using removable discontinuities. A function is said to be continuous if a
+graph can be drawn, at least in principle, without lifting your pen off the paper. For example, the straight line y = x in this diagram
+was drawn without lifting the pen. The line, of course, goes on forever. So one has to imagine in principle being
+able to draw as much as we like, back and forth, as far as we like,
+without ever needing to lift the pen. In fact, this works for
+any graph of a linear function. Here's a horizontal line which is
+the graph of y = k for some constant k. Which again, we can imagine drawing
+without lifting our pen off the paper. Here's the parabola y = x squared,
+also continuous, and y = sine x, which wriggles back and forth,
+forever but continuously. And y = e to the x and y = the natural
+logarithm of x, all continuous functions. When we imagine drawing without lifting
+our pen, there are no holes or gaps. And the limiting values precisely fill in
+where your pen is supposed to move to, captured by the statement, the limits of f(x) as x approaches a is
+the value of the function a, namely f(a). And this has to work for every input x
+equal to a in the domain of the function. There are no surprise jumps or leaps,
+and you can think of any limiting behavior of the function as coinciding
+with the actual value of the function. There are two main obstructions
+to continuity in practice. Firstly, we must consider
+denominators of fractions. We're not allowed to divide by zero, and so have to avoid values that cause
+the denominator of a fraction to be zero. The second main problem is when a function
+is defined piecewise, which means that there are two more pieces in the
+description of the rule for the function. Leading to two or more pieces of
+the curve which have to match and join up with the endpoints, if we are to imagine drawing the combined
+curve without lifting a pen off the paper. Here's an example of a piecewise
+function that happens to be continuous. Consider the usual magnitude function, f(x) = the magnitude or
+absolute value of x. In fact defined in two pieces,
+as x, if x is greater than or equal to 0, and
+minus x if x is less than 0. The graph is in a V-shape, formed by
+taking the line y equals x in the first quadrant in the plane, and combining it
+with y equals -x in the second quadrant. The two pieces of the curve join up,
+matching perfectly at the origin. You can imagine drawing the V-shape
+without lifting your pen off the paper. By contrast,
+consider the following example, which turns out to be discontinuous. By which we mean that we'll
+be unable to draw the graph without lifting our pen off the paper. For this,
+we modify the previous example, and consider the function with rule f(x)
+= x divided by the magnitude of x. Which again can be describe in pieces. When x is positive,
+the magnitude of x is x itself, so dividing x by x gives the value 1. When x is negative,
+the magnitude of x is -x, so dividing x by -x gives the value -1. The rule is undefined for x equals 0. Here's the graph of y = f(x) which
+consists of two horizontal lines. One at height y equals 1 for
+x greater than 0, and another at height y equals -1 for
+x less than 0. Note that these two lines get
+arbitrarily close to the y-axis, but don't actually meet it. You can think of there being two holes
+on the y-axis, and y equals 1 and y equals -1. It won't make the overall curve continuous
+by filling either of these holes. For x approaching 0 from above,
+from the positive right-hand size, the y values are stuck at plus 1, so
+the limit from the right is plus 1. By contrast, for x approaching 0 from
+below, from the negative left-hand side, the y values are stuck at -1, so
+the limit from the left is -1. We have these contrasting
+one-sided limiting behaviors for x over the magnitude of x. We have a limit existing from
+the right, as x tend to 0 from above, namely plus 1. And a limit existing from the left as
+x tend to 0 from below, namely -1. The overall two-sided limit
+does not exist if we allow x to approach 0 from both sides. There's no hope of filling in the holes
+to make the curve continuous so that you can draw it without
+lifting your pen off the paper. Recall that rational functions
+are ratios of polynomials, of the general form y = f(x)
+= p(x) divided by q(x), where p(x) and q(x) are polynomials. Problematic behavior occurs when
+denominators become zero, often but not always leading to asymptotes. Recall two contrasting examples
+from an earlier video, f(x) = x squared -1 divided by x-1, and
+g(x) = x squared -2 divided by x-1. Both of which would have
+0 denominator if x = 1. So that the input x = 1 is problematic,
+but in quite different ways. Recall, we produced the graph of f, which turns out to be a line
+with a hole at the point (1, 2). And the graph of g, which turns out
+to have an oblique asymptote, and a vertical asymptote passing
+through the x-axis at x = 1. In the case of the function f,
+the rule becomes f(x) = x + 1 for x not equal to 1, producing a line
+with just one point missing. If we fill in the hole,
+then we get the full, continuous curve. We say that the discontinuity
+is removable. By contrast, if we look at the graph of g, no matter where we travel on the vertical
+asymptote corresponding to x = 1, we cannot find an input that will
+join up to two branches of the curve. They always remain separated. We say that the discontinuity
+is not removable. I'd like to finish by describing
+one of the most famous and important examples of all that
+has a removable discontinuity. Recall that last time we carefully
+demonstrated using the Squeeze Limit law, that the limit of sine x
+over x is equal to 1 as x tends to 0. Let's consider the function
+f(x) = sine x over x, with domain the set of
+all nonzero real numbers. The rule is not defined for
+x = 0 because of x in the denominator, but it's defined for all other real numbers x. Here is the graph of f. Note that there is a hole for x = 0,
+because the rule is undefined there. Because of the wavy periodic
+behavior of sine x, we expect the curve to undulate
+forever to the right and left. However, the amplitudes of
+the undulations decrease the further we're away from the origin, as
+the denominator x gets larger and larger. Multiplying by 1 on x has some kind
+of dampening effect on sine x. The graph also has perfect reflectional
+symmetry about the y-axis. It's an example of an even function,
+a concept that we'll talk about and use later in the course. As x approaches 0 from either side, y = sine x over x approaches 1. Because the limit exists as x approaches
+0, we can fill in the hole, and then adjust the rule for the function. Which remains sine x over x for nonzero x. But now takes the value 1 in the special
+case when the input x is equal to 0. The discontinuity turns
+out to be removable, and we produce this beautiful,
+continuous, smooth curve. It's a famous curve that has many
+application in areas of physics and engineering, such as signal analysis,
+acoustics, optics, and spectroscopy. Today we moved along at a very fact rate,
+and included quite an advanced discussion about
+limits in the context now of continuity. We discussed the notion of
+a continuous function, whose graph we may think of as being drawn
+without lifting the pen off the paper. A property that can be defined in terms of
+limits, namely that the limiting behavior of the curve at any particular point
+actually takes the limiting value. We gave contrasting examples, some with
+a removable discontinuity at a particular point where the limit exists,
+including the famous sine x on x curve. In cases where it's not possible
+to remove the discontinuity, including examples such as where the left
+and right limits exist but are not equal, and where there's a vertical asymptote for
+a rational function. Please read the notes, and when you're
+ready, please attempt the exercises. Thank you very much for watching, and
+I look forward to seeing you again soon. [MUSIC]

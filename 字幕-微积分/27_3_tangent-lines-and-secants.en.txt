@@ -1,0 +1,123 @@
+[MUSIC] In this video, we discuss how
+secants in geometry can be used to approximate slopes of tangent lines. Slopes of lines are just fractions
+involving the vertical rise divided by the horizontal run. The fractions associated with lines
+formed by secants happen to be linked to fractions associated with tangent
+lines by a natural limiting process. It's an amazing fact, that under certain
+conditions we can understand and control the behavior of approximations that occur,
+producing very precise outcomes. This leads us towards formal definitions
+of the derivative in terms of limits of fractions, which is the main
+theme of this module. The underlying idea of
+calculus is to use tangent lines to approximate smooth curves, which arise as graphs of sophisticated
+functions that model interesting phenomena. Lines, of, course use simple arithmetic. So if we can achieve this then there's
+a substantial reduction in complexity. We have the possibility of creating
+very powerful and wide ranging tools. A tangent line, typically, just glances
+a curve at a single point of interest and acts as a good approximation to the curve
+near this point of intersection. There are cases where
+tangent lines actually cross the curve at the point of interest,
+but more about that later. Warning, not all curves are smooth,
+some might need special treatment. For example, this curve has a sharp point,
+this curve has a discontinuity where the curve breaks apart at some point,
+this curve also has a sharp point. In each case there's some ambiguity about
+choosing an appropriate tangent line. The third curve is an interesting and
+important example and the sharp point is known as a cusp. There is in fact a useful and meaningful
+tangent line for this cusp example. A vertical line that splits
+the cusp in the middle and even passes completely through the curve. Close to the cusp this vertical line
+is a very good approximation to the behavior of the curve on either side. In the previous video, we looked at
+a particular displacement curve associated with a cannonball fired directly upwards and eventually coming back down to
+Earth under the influence of gravity. The curve was in fact described
+by a quadratic equation. We looked at slopes of tangent
+lines in that example and a linear function was produced
+that represented the velocity. This looked rather special, but in fact
+turns out to be typical of behavior that occurs with all quadratic functions. To try to understand what's
+going on let's carefully analyze the simplest quadratic of all,
+y equals x squared. And see if we can extract
+some general principles. Note that we're reverting x again
+as the independent variable and y the dependent variable. A typical point on the curve has
+coordinates x on the horizontal axis and x squared on the vertical axis. And we can draw a tangent line to
+the curve passing through this point. We can perturb the input x slightly simply
+by adding h to get a new input x plus h. And then move up to the curve and across to the vertical axis to land
+at the value x plus h, all squared. Hence the new point on the curve
+has coordinates x plus h and x plus h all squared. We can join these two points on the green
+curve with a straight line segment, colored blue in the diagram. A line that joins two distinct points of
+a curve is called a secant in geometry. Because it's a line segment this
+secant has a slope in the usual sense, that is a vertical raise
+divided by an horizontal run. You can see that the horizontal
+run in the diagram is h, there's no harm throughout this discussion
+in assuming that h is positive. The vertical rise in this diagram is
+the difference in the y coordinates, namely, x plus h squared minus x squared. We'll look at the quotient of
+these carefully in a moment. Note that as h is made smaller and
+smaller approaching zero without actually reaching zero, the slope of the secant
+approaches the slope of the tangent line. And it's conventional to use these arrows
+as abbreviations for the word approaches. To see this visually imagine
+the second point slipping or sliding down the parabola
+towards the first point. Even though the secant gets shorter and
+shorter, the direction of the secant aligns more and more with
+the direction of the tangent line. So that their slopes look like
+they're going to coincide and we think of them as actually
+coinciding in some kind of limit. Note that even though h approaches zero,
+it doesn't actually reach zero as these diagrams require two distinct
+points in order to form a secant. If h were equal to zero then there would
+be only one point on the curve not two. So returning to the earlier
+diagram with horizontal run h and vertical rise x plus h
+squared minus x squared. Let's look at the quotient
+representing the slope of the secant. The numerator, representing
+the vertical rise, can be expanded and then there's some cancellation. So the fraction becomes
+2xh plus h squared divided by h. And the numerator factorizes and
+the h's cancel in the numerator and denominator simplifying further to 2x plus h. As h gets closer and
+closer to zero this expression, 2x plus h, for the slope of the secant
+gets closer and closer to 2x. We regard 2x as the limit of this
+process of taking slopes of secants. So 2x represents the slope
+of the tangent line. We've derived this very important result, that the slope of the tangent line
+to the parabola y = x squared and the point of the coordinates x and
+x squared is just twice x. Now, if you go through the same
+process with y equals k x squared, where k is some fixed constant then the
+previous calculation simply gets scaled by a factor of k. And we'll get the following result. The slope of the tangent line
+to the parabola y=kx squared at the point with coordinates x and
+kx squared is just twice kx. We can now discover a surprising
+connection with areas of circles. Consider a circle of radius r,
+it's area, capital A, is given by the formula pi r squared. The perimeter, capital P,
+is given by the formula 2 pi r. That is, twice pi r, which is precisely
+the slope of the tangent line to the parabola A = pi r squared at the
+point with coordinates r and pi r squared. Where we interpret our
+previous result using r for x, capital A for y, and pi for k. This isn't a coincidence, it's an instance of something
+quite profound in mathematics. Forming slopes of tangent lines
+is called differentiation. Finding areas of regions in the plane,
+like finding the area of a circle, is called integration. There's a remarkable connection between
+them described in the last module of this course called
+the Fundamental Theorem of Calculus. Something as innocent looking as a simple
+relationship between slopes of tangent lines and areas of regions in the plane
+turns out to be one of the most transformative observations in
+the history of mathematics. And was first noticed by Newton and
+Leibniz in the 17th century. The idea behind the calculation
+we just did for y=x squared generalizes to
+any smooth curve y=f of x. Choose some point of interest with
+coordinates x on the horizontal axis and f of x on the vertical axis. Now, attach a tangent line to the curve
+that passes through this point. Now, perturb the input x slightly by
+adding h to get a new input, x plus h. The output corresponding to this new input
+is f of x plus h marked on the vertical axis. We now join the two points on the curve
+to form this blue line segment, called a secant as before. In moving from the first point to
+the second new point the horizontal run is h and the vertical rise
+is f of x plus h minus f of x. So the slope of the secant is the quotient
+f of x plus h minus f of x divided by h. The slope of the tangent
+line is the limiting slope of the secant as h tends towards zero. You can see this visually as a new
+point slides down the curve towards the original point, the secant
+gets shorter and shorter. But its slope gets more and more aligned
+with the slope of the tangent and we think of it as actually reaching
+the slope of the tangent in the limit. We capture this idea using
+this limit notation, lim is an abbreviation for limit. And together with h arrow zero beneath
+the full result reads, the slope of the tangent line is the limit as h
+approaches zero of f of x + h minus f x over h. Whatever this limit evaluates
+to representing the slope of the tangent line is called
+the derivative of f at x. Now, this technical expression involving
+limits has several equivalent formulations that we'll explore in later videos. It's quite astonishing, as you'll see,
+that we're able to calculate and control these limits precisely with so
+many important functions f. Today we considered in detail the process
+of taking the limiting slope of a secant to find the explicit formula for the slope
+of the tangent line to a parabola. The underlying method generalizes to any
+smooth function and is the basis for formal definitions of the derivative, which will be discussed and
+illustrated in detail in later videos. The idea has two main ingredients,
+forming slopes of line segments, which are special kinds of fractions, and
+then seeing what happens in the limit. Because of the importance of the notion of
+limits we'll discuss them in more detail in the next two videos. Please read the notes and when you're
+ready please attempt the exercises. Thank you very much for watching and
+I look forward to seeing you again soon. [MUSIC]
